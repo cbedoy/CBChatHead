@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <WebView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/webView" />
+
+    <View
+        android:layout_width="match_parent"
+        android:background="#64b594"
+        android:layout_height="1dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#71d1ac"
+        android:layout_height="wrap_content">
+        android:orientation="vertical"
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#71d1ac"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginLeft="3dp"
+            android:textColor="#fafafa"
+            android:text="Facebook"
+            android:id="@+id/b_facebook" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Twitter"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginLeft="3dp"
+            android:background="#71d1ac"
+            android:textColor="#fafafa"
+            android:id="@+id/b_twitter" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Github"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginLeft="3dp"
+            android:background="#71d1ac"
+            android:textColor="#fafafa"
+            android:id="@+id/b_github" />
+
+        </LinearLayout>
+
+
+</LinearLayout>

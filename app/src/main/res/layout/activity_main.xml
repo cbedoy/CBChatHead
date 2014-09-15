@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:padding="11dp"
+        android:text="CBChatHead as Facebook"
+        android:background="#71d1ac"
+        android:textSize="20sp"
+        android:textColor="#fafafa"/>
+
+    <View
+        android:background="#64b594"
+        android:layout_marginBottom="11dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_gravity="center"
+        android:layout_width="192dp"
+        android:layout_height="192dp"
+        android:src="@drawable/cbedoy"
+        android:padding="11dp"
+        app:border_width="1dp"
+        app:border_color="#d0d0d0"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="11dp"
+        android:textSize="14sp"
+        android:text="Custom implementation of chatheads as facebook, include libraries for make animations, circular bubbles, and some open source for use in your application, chatheads as facebook doesn't have all animation as my project :D"
+        android:textColor="#999999"/>
+
+    <Button
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:text="Fork me on Github"
+        android:background="#71d1ac"
+        android:textColor="#fafafa"
+        android:padding="11dp"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
