@@ -8,6 +8,7 @@ import android.os.IBinder;
 import java.util.List;
 
 import cbedoy.cbchathead.views.bubble.CBChatHeadView;
+import cbedoy.cbchathead.views.user.UserBubbleView;
 
 
 /**
@@ -30,8 +31,9 @@ public class CBService  extends Service {
     @Override
     public void onCreate() {
         super.onCreate();
+        UserBubbleView userBubbleView = new UserBubbleView(getApplicationContext());
         CBChatHeadView view = new CBChatHeadView(getApplicationContext());
-
+        view.addView(userBubbleView);
 
     }
 

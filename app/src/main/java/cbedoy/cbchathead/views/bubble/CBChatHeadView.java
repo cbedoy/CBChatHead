@@ -1,6 +1,7 @@
 package cbedoy.cbchathead.views.bubble;
 
 import android.content.Context;
+import android.graphics.Color;
 import android.graphics.PixelFormat;
 import android.os.Handler;
 import android.os.Looper;
@@ -64,6 +65,7 @@ public class CBChatHeadView extends LinearLayout implements IBubbleChatViewDeleg
     public CBChatHeadView(Context context)
     {
         super(context);
+        setBackgroundColor(Color.RED);
         setLayoutParams(new LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT));
         setOrientation(VERTICAL);
         mBubbles = new LinearLayout(getContext());
