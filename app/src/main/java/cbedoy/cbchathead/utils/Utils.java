@@ -1,4 +1,4 @@
-package cbedoy.cbchathead.views;
+package cbedoy.cbchathead.utils;
 
 import android.app.Activity;
 import android.content.Context;

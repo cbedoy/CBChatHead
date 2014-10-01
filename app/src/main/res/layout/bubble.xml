@@ -1,17 +1,40 @@
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
-    android:layout_width="wrap_content"
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
     android:layout_height="wrap_content">
 
     <de.hdodenhof.circleimageview.CircleImageView
         xmlns:app="http://schemas.android.com/apk/res-auto"
-        android:id="@+id/bubble_id"
-        android:layout_width="48dp"
-        android:layout_height="48dp"
+        android:id="@+id/user_avatar"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:src="@drawable/cbedoy"
         app:border_width="0dp"
-        app:border_color="#ffffff"/>
+        app:border_color="#FF000000"/>
 
-</LinearLayout>
+    <TextView
+        android:id="@+id/user_message_count"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="9dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:padding="2dp"
+        android:visibility="gone"
+        android:background="@drawable/round_notification"
+        android:textColor="#fafafa"
+        android:text="12"/>
+
+    <View
+        android:id="@+id/user_arrow_indicator"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="35dp"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:visibility="invisible"
+        android:background="@drawable/arrow_indicator"/>
+
+</FrameLayout>

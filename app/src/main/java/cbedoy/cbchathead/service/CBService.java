@@ -1,14 +1,13 @@
-package cbedoy.cbchathead;
+package cbedoy.cbchathead.service;
 
 import android.app.Service;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.os.IBinder;
 
-import java.util.ArrayList;
 import java.util.List;
 
-import cbedoy.cbchathead.views.CBChatHeadView;
+import cbedoy.cbchathead.views.bubble.CBChatHeadView;
 
 
 /**
