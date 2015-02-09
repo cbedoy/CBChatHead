@@ -12,20 +12,21 @@
 
     <View
         android:layout_width="match_parent"
-        android:background="#64b594"
+        android:background="#00796B"
         android:layout_height="1dp"/>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:background="#71d1ac"
+        android:background="#009688"
+        android:orientation="horizontal"
         android:layout_height="wrap_content">
-        android:orientation="vertical"
+
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="#71d1ac"
+            android:background="#009688"
             android:layout_marginBottom="3dp"
             android:layout_marginTop="3dp"
             android:layout_marginRight="3dp"
@@ -43,7 +44,7 @@
             android:layout_marginTop="3dp"
             android:layout_marginRight="3dp"
             android:layout_marginLeft="3dp"
-            android:background="#71d1ac"
+            android:background="#009688"
             android:textColor="#fafafa"
             android:id="@+id/b_twitter" />
 
@@ -56,7 +57,7 @@
             android:layout_marginTop="3dp"
             android:layout_marginRight="3dp"
             android:layout_marginLeft="3dp"
-            android:background="#71d1ac"
+            android:background="#009688"
             android:textColor="#fafafa"
             android:id="@+id/b_github" />
 
